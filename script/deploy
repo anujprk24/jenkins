@@ -2,5 +2,5 @@
 
 #ssh app@162.243.154.176 <<EOF
   npm install --production
-  nodejs app.js &
+  forever start app.js
 
